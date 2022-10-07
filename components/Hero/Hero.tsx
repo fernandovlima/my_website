@@ -46,7 +46,7 @@ export function Hero() {
 
         <h1
           className={
-            "text-[24px] md:text-[32px] lg:text-[48px] font-semibold px-5"
+            "text-[24px] md:text-[32px] lg:text-[40px] font-semibold px-5"
           }
         >
           <span className={"mr-3"}>{text}</span>

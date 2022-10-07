@@ -18,7 +18,7 @@ export const Technologies = [
     icon: (
       <SiHtml5
         className={
-          "h-12 w-fit lg:h-16 fill-gray-400 transition-colors duration-200 ease-in-out group-hover:fill-[#E34F26]"
+          "h-8 md:h-12 w-fit lg:h-16 fill-gray-400 transition-colors duration-200 ease-in-out group-hover:fill-[#E34F26]"
         }
       />
     ),
@@ -28,7 +28,7 @@ export const Technologies = [
     icon: (
       <SiCss3
         className={
-          "h-12 w-fit lg:h-16 fill-gray-400 transition-colors duration-200 ease-in-out group-hover:fill-[#1572B6]"
+          "h-8 md:h-12 w-fit lg:h-16 fill-gray-400 transition-colors duration-200 ease-in-out group-hover:fill-[#1572B6]"
         }
       />
     ),
@@ -38,7 +38,7 @@ export const Technologies = [
     icon: (
       <SiJavascript
         className={
-          "h-12 w-fit lg:h-16 fill-gray-400 transition-colors duration-200 ease-in-out group-hover:fill-[#F7DF1E]"
+          "h-8 md:h-12 w-fit lg:h-16 fill-gray-400 transition-colors duration-200 ease-in-out group-hover:fill-[#F7DF1E]"
         }
       />
     ),
@@ -48,7 +48,7 @@ export const Technologies = [
     icon: (
       <FaNodeJs
         className={
-          "h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#68A063] transition-colors duration-200 ease-in-out"
+          "h-8 md:h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#68A063] transition-colors duration-200 ease-in-out"
         }
       />
     ),
@@ -59,7 +59,7 @@ export const Technologies = [
     icon: (
       <SiTypescript
         className={
-          "h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#3178C6] transition-colors duration-200 ease-in-out"
+          "h-8 md:h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#3178C6] transition-colors duration-200 ease-in-out"
         }
       />
     ),
@@ -70,7 +70,7 @@ export const Technologies = [
     icon: (
       <FaReact
         className={
-          "h-12 w-fit lg:h-16  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
+          "h-8 md:h-12 w-fit lg:h-16  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
         }
       />
     ),
@@ -80,7 +80,7 @@ export const Technologies = [
     icon: (
       <SiGraphql
         className={
-          "h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#E10098] transition-colors duration-200 ease-in-out"
+          "h-8 md:h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#E10098] transition-colors duration-200 ease-in-out"
         }
       />
     ),
@@ -90,7 +90,7 @@ export const Technologies = [
     icon: (
       <SiNextdotjs
         className={
-          "h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-black transition-colors duration-200 ease-in-out"
+          "h-8 md:h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-black transition-colors duration-200 ease-in-out"
         }
       />
     ),
@@ -100,7 +100,7 @@ export const Technologies = [
     icon: (
       <SiTailwindcss
         className={
-          "h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#38B2AC] transition-colors duration-200 ease-in-out"
+          "h-8 md:h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#38B2AC] transition-colors duration-200 ease-in-out"
         }
       />
     ),
@@ -110,7 +110,7 @@ export const Technologies = [
     icon: (
       <SiMongodb
         className={
-          "h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#47A248] transition-colors duration-200 ease-in-out"
+          "h-8 md:h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#47A248] transition-colors duration-200 ease-in-out"
         }
       />
     ),
@@ -130,7 +130,7 @@ export const Technologies = [
     icon: (
       <SiFigma
         className={
-          "h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#F24E1E] transition-colors duration-200 ease-in-out"
+          "h-8 md:h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#F24E1E] transition-colors duration-200 ease-in-out"
         }
       />
     ),
@@ -150,7 +150,7 @@ export const Technologies = [
     icon: (
       <SiGithub
         className={
-          "h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#181717] transition-colors duration-200 ease-in-out"
+          "h-8 md:h-12 w-fit lg:h-16 fill-gray-400 group-hover:fill-[#181717] transition-colors duration-200 ease-in-out"
         }
       />
     ),

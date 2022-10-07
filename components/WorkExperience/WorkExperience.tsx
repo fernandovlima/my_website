@@ -12,7 +12,7 @@ export function WorkExperience() {
 
       <div
         className={
-          "w-full flex space-x-5 overflow-x-scroll snap-x snap-mandatory lg:mt-20"
+          "w-full flex space-x-5 overflow-x-scroll snap-x snap-mandatory lg:mt-20 p-10 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/60"
         }
       >
         <ExperienceCard />

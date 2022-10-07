@@ -1,4 +1,3 @@
-import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import { BsLinkedin, BsGithub, BsInstagram, BsEnvelope } from "react-icons/bs";
 import Link from "next/link";
@@ -50,7 +49,7 @@ export function Header() {
         <Link href={"mailto:me@fernandolima.xyz"}>
           <BsEnvelope
             className={
-              "h-6 w-fit fill-gray-400 hover:fill-orange-500 transition-colors duration-200 ease-in-out"
+              "h-6 w-fit mr-2 fill-gray-400 hover:fill-orange-500 transition-colors duration-200 ease-in-out"
             }
           />
         </Link>

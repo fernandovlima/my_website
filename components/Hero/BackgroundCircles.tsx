@@ -28,7 +28,7 @@ export default function BackgroundCircles() {
       />
       <div
         className={
-          "absolute border border-[#F7AB0A] rounded-full opacity-20 h-[650px] mt-52 w-[650px] animate-pulse"
+          "hidden md:block absolute border border-[#F7AB0A] rounded-full opacity-20 h-[650px] mt-52 w-[650px] animate-pulse"
         }
       />
       <div

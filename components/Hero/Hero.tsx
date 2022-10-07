@@ -36,11 +36,19 @@ export function Hero() {
       />
 
       <div className={"z-30"}>
-        <h2 className={"text-sm uppercase text-gray-500 pb-4 tracking-[15px] "}>
+        <h2
+          className={
+            "text-sm uppercase text-gray-500 pb-4 tracking-[10px] md:tracking-[20px] "
+          }
+        >
           Software engineer
         </h2>
 
-        <h1 className={"text-4xl font-semibold px-5"}>
+        <h1
+          className={
+            "text-[24px] md:text-[32px] lg:text-[48px] font-semibold px-5"
+          }
+        >
           <span className={"mr-3"}>{text}</span>
           <Cursor cursorColor={"yellow"} cursorStyle={"👾"} />
         </h1>

@@ -1,4 +1,4 @@
-import SectionHeader from "./Headings/SectionHeader";
+import SectionHeader from "../Headings/SectionHeader";
 import { motion } from "framer-motion";
 
 export function About() {
@@ -21,7 +21,12 @@ export function About() {
         }
       />
 
-      <div>
+      <motion.div
+        initial={{ x: 500, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
         <h2 className={"mb-8"}>A little about me.</h2>
         <p className={"text-justify"}>
           Reprehenderit nostrud excepteur amet qui qui tempor labore qui Lorem
@@ -33,7 +38,7 @@ export function About() {
           qui irure anim aliquip aute pariatur. Ut anim esse cupidatat ullamco
           dolor ullamco aliqua. lotem ipsum dolor sit amet, consectetur
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 }

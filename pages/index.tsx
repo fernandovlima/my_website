@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-import { WorkExperience } from "../components/WorkExperience";
-import { Header } from "../components/Header";
-import { Hero } from "../components/Hero";
-import { About } from "../components/About";
+import { WorkExperience } from "../components/WorkExperience/WorkExperience";
+import { Header } from "../components/Header/Header";
+import { Hero } from "../components/Hero/Hero";
+import { About } from "../components/About/About";
+import { TechsAndTools } from "../components/Skills/TechsAndTools";
 
 const Home: NextPage = () => {
   return (
@@ -27,6 +28,10 @@ const Home: NextPage = () => {
 
       <section id={"experience"} className={"snap-center"}>
         <WorkExperience />
+      </section>
+
+      <section id={"techs-and-tools"} className={"snap-center"}>
+        <TechsAndTools />
       </section>
     </div>
   );

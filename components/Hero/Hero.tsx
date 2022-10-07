@@ -55,12 +55,8 @@ export function Hero() {
           <div className={"hero-button transition-colors"}>Experience</div>
         </Link>
 
-        <Link href={"#projects"}>
-          <div className={"hero-button"}>Skills</div>
-        </Link>
-
-        <Link href={"#contact"}>
-          <div className={"hero-button"}>Projects</div>
+        <Link href={"#techs-and-tools"}>
+          <div className={"hero-button"}>Techs And Tools</div>
         </Link>
       </div>
     </div>

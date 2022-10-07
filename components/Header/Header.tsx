@@ -1,6 +1,6 @@
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
-import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsInstagram, BsEnvelope } from "react-icons/bs";
 import Link from "next/link";
 
 export function Header() {
@@ -19,7 +19,7 @@ export function Header() {
         <Link href={"https://www.github.com/fernandovlima"}>
           <BsGithub
             className={
-              "h-6 w-fit fill-gray-400 hover:fill-gray-100 transition-colors"
+              "h-6 w-fit fill-gray-400 hover:fill-gray-100 transition-colors duration-200 ease-in-out"
             }
           />
         </Link>
@@ -27,7 +27,7 @@ export function Header() {
         <Link href={"https://www.linkedin.com/in/fernando-lima-492822116/"}>
           <BsLinkedin
             className={
-              "h-6 w-fit fill-gray-400 hover:fill-[#0276a8] transition-colors"
+              "h-6 w-fit fill-gray-400 hover:fill-[#0276a8] transition-colors duration-200 ease-in-out"
             }
           />
         </Link>
@@ -35,7 +35,7 @@ export function Header() {
         <Link href={"https://www.instagram.com/f_ern_ndo"}>
           <BsInstagram
             className={
-              "h-6 w-fit fill-gray-400 hover:fill-pink-500 transition-colors"
+              "h-6 w-fit fill-gray-400 hover:fill-pink-500 transition-colors duration-200 ease-in-out "
             }
           />
         </Link>
@@ -47,13 +47,13 @@ export function Header() {
         animate={{ opacity: [0.5, 1], x: 0, scale: [1.5, 1] }}
         transition={{ duration: 1 }}
       >
-        <SocialIcon
-          className="cursor-pointer"
-          network={"email"}
-          url="mailto:me@fernandolima.xyz"
-          fgColor={"#9ca3af"}
-          bgColor={"transparent"}
-        />
+        <Link href={"mailto:me@fernandolima.xyz"}>
+          <BsEnvelope
+            className={
+              "h-6 w-fit fill-gray-400 hover:fill-orange-500 transition-colors duration-200 ease-in-out"
+            }
+          />
+        </Link>
         <p className={"uppercase hidden md:inline-flex text-sm text-gray-400"}>
           Get in touch
         </p>

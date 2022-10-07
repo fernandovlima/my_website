@@ -31,7 +31,7 @@ export function About() {
           Aliquip ex dolore pariatur in sint officia mollit dolor cillum
           laborum. Qui sint veniam consequat ex est laborum adipisicing magna
           qui irure anim aliquip aute pariatur. Ut anim esse cupidatat ullamco
-          dolor ullamco aliqua.
+          dolor ullamco aliqua. lotem
         </p>
       </div>
     </div>

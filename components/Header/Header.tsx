@@ -49,19 +49,21 @@ export function Header() {
         transition={{ duration: 1 }}
       >
         <Link href={"mailto:me@fernandolima.xyz"}>
-          <BsEnvelope
-            className={
-              "h-6 w-fit mr-2 fill-gray-400 hover:fill-orange-500 transition-colors duration-200 ease-in-out"
-            }
-          />
+          <div className={"flex items-center"}>
+            <BsEnvelope
+              className={
+                "h-6 w-fit mr-2 fill-gray-400 group-hover:fill-[#F7AB0A] transition-colors duration-200 ease-in-out"
+              }
+            />
+            <p
+              className={
+                "uppercase hidden md:inline-flex text-sm text-gray-400 group-hover:text-[#F7AB0A] duration-200 ease-in-out"
+              }
+            >
+              Get in touch
+            </p>
+          </div>
         </Link>
-        <p
-          className={
-            "uppercase hidden md:inline-flex text-sm text-gray-400 group-hover:text-[F7AB0A]"
-          }
-        >
-          Get in touch
-        </p>
       </motion.div>
     </header>
   );

@@ -25,7 +25,7 @@ export function Hero() {
       <BackgroundCircles />
 
       <Image
-        src={"/img/fernando.jpeg"}
+        src={"/img/fernando.webp"}
         layout="intrinsic"
         width={140}
         height={140}

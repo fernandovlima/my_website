@@ -11,7 +11,7 @@ export function About() {
       <SectionHeader level={3}>About</SectionHeader>
 
       <motion.img
-        src={"/img/fernando.jpeg"}
+        src={"/img/fernando.webp"}
         initial={{ x: -500, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}

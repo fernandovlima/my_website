@@ -5,6 +5,7 @@ import dayjs from "dayjs";
 
 type Experience = {
   company: string;
+  logo: string;
   position: string;
   startDate: string;
   endDate: string;
@@ -19,6 +20,7 @@ interface ExperienceCardProps {
 export function ExperienceCard({ experience }: ExperienceCardProps) {
   const {
     company,
+    logo,
     position,
     startDate,
     endDate,
@@ -34,8 +36,8 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
   return (
     <article
       className={
-        "flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[900px]" +
-        " snap-center bg-[#292929] p-6 hover:opacity-100 opacity-70 cursor-pointer transition-opacity ease-in-out duration-300 overflow-hidden"
+        "flex flex-col rounded-lg items-center space-y-8 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[800px] mb-4" +
+        " snap-center bg-gray-medium p-6 hover:opacity-100 opacity-70 cursor-pointer transition-opacity ease-in-out duration-300 overflow-hidden"
       }
     >
       <motion.div
@@ -47,7 +49,7 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
       >
         <Image
           className={"absolute rounded-full object-cover object-center"}
-          src={"/img/fernando.jpeg"}
+          src={logo}
           alt={`${company} logo`}
           fill
         />

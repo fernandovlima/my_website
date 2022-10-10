@@ -1,6 +1,7 @@
 export const experience = [
   {
     company: "Amplifyre",
+    logo: "/img/amplifyre.webp",
     position: "Full-Stack Developer",
     startDate: "2020-10-01",
     endDate: "2021-01-01",
@@ -24,6 +25,7 @@ export const experience = [
   },
   {
     company: "Datamonkeys",
+    logo: "/img/dm.jpeg",
     position: "Front-End Developer",
     startDate: "2020-02-01",
     endDate: "2020-10-01",
@@ -38,6 +40,7 @@ export const experience = [
 
   {
     company: "Freelance",
+    logo: "/img/fernando.webp",
     position: "Front-End Developer",
     startDate: "2019-01-01",
     endDate: "2020-01-01",

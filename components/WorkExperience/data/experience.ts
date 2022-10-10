@@ -3,7 +3,7 @@ export const experience = [
     company: "Amplifyre",
     position: "Full-Stack Developer",
     startDate: "2020-10-01",
-    endDate: "-",
+    endDate: "2021-01-01",
     isCurrent: true,
     summary: [
       "Develop, maintain, and improve the platform using React, NextJS, Typescript on the font-end and NodeJS, GraphQL, and MongoDB on the back-end",

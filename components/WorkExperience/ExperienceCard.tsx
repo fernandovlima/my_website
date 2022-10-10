@@ -65,7 +65,6 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
         <p className={"capitalize px-5 text-gray-300 my-3"}>
           {dayjs(startDate).format("MMM YY")} -{" "}
           {isCurrent ? "Present" : dayjs(endDate).format("MMM YY")}
-          {dayjs(endDate).diff(dayjs(startDate), "month")}
           {` - ${totalMonthsWorked}`}
         </p>
 

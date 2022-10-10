@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         "gray-dark": "rgb(36, 36, 36)",
-        "gray-medium": "rgb(48, 48, 48)",
+        "gray-medium": "rgb(50, 50, 50)",
         "gray-light": "rgb(130, 130, 130)",
       },
     },

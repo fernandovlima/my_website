@@ -6,7 +6,7 @@ type Props = {
 };
 
 export default function SectionHeader({ children, level }: Props) {
-  const className = `absolute top-24 uppercase font-bold tracking-[15px] text-gray-500 text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]`;
+  const className = `absolute top-20 uppercase font-bold tracking-[15px] text-gray-500 text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]`;
   return (
     <>
       {level === 1 && <h1 className={className}>{children}</h1>}

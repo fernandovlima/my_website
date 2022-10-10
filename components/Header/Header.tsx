@@ -41,7 +41,9 @@ export function Header() {
       </motion.div>
 
       <motion.div
-        className={"flex flex-row items-center text-gray-400 cursor-pointer"}
+        className={
+          "group flex flex-row items-center text-gray-400 cursor-pointer"
+        }
         initial={{ opacity: 0, x: 500, scale: 0.5 }}
         animate={{ opacity: [0.5, 1], x: 0, scale: [1.5, 1] }}
         transition={{ duration: 1 }}
@@ -53,7 +55,11 @@ export function Header() {
             }
           />
         </Link>
-        <p className={"uppercase hidden md:inline-flex text-sm text-gray-400"}>
+        <p
+          className={
+            "uppercase hidden md:inline-flex text-sm text-gray-400 group-hover:text-[F7AB0A]"
+          }
+        >
           Get in touch
         </p>
       </motion.div>

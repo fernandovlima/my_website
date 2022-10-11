@@ -55,7 +55,7 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
         />
       </motion.div>
 
-      <div className={"px-0 md:px-10"}>
+      <div className={"w-full px-0 md:px-10"}>
         <p
           className={"font-bold text-1xl mt-1 tracking-[4px] uppercase orange"}
         >
@@ -76,7 +76,7 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
           })}
         </div>
 
-        <ul className={"list-disc space-y-4 text-sm text-justify w-fit"}>
+        <ul className={"list-disc space-y-4 text-sm text-justify w-fit p-y-10"}>
           {summary.map((item) => {
             return <li key={item}>{item}</li>;
           })}

@@ -13,7 +13,7 @@ export function WorkExperience() {
 
       <div
         className={
-          "w-full max-w-4xl flex space-x-8 overflow-x-scroll snap-x snap-mandatory md:mt-20 p-1 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/60 scrollbar-thin"
+          "w-full max-w-4xl mt-16 flex space-x-8 overflow-x-scroll snap-x snap-mandatory md:mt-20 p-1 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/60 scrollbar-thin"
         }
       >
         {experience.map((experience) => (

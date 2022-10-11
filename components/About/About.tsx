@@ -1,5 +1,6 @@
 import SectionHeader from "../Headings/SectionHeader";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export function About() {
   return (
@@ -12,7 +13,7 @@ export function About() {
 
       <motion.img
         src={"/img/fernando.webp"}
-        initial={{ x: -500, opacity: 0 }}
+        initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
@@ -22,21 +23,30 @@ export function About() {
       />
 
       <motion.div
-        initial={{ x: 500, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 10, opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
-        <h2 className={"mb-8"}>A little about me.</h2>
+        <h2 className={"mb-8 border-b-2 w-fit border-[#F7AB0A] pb-1"}>
+          A little about me.
+        </h2>
         <p className={"text-justify"}>
-          Reprehenderit nostrud excepteur amet qui qui tempor labore qui Lorem
-          id Lorem fugiat deserunt. Aliqua non ex in irure esse sint veniam.
-          Lorem culpa dolore voluptate. Non deserunt nostrud sit pariatur
-          adipisicing excepteur anim laborum id esse deserunt fugiat qui.
-          Aliquip ex dolore pariatur in sint officia mollit dolor cillum
-          laborum. Qui sint veniam consequat ex est laborum adipisicing magna
-          qui irure anim aliquip aute pariatur. Ut anim esse cupidatat ullamco
-          dolor ullamco aliqua. lotem ipsum dolor sit amet, consectetur
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
+          I'm a brazilian software engineer with a technical degree in internet
+          systems. I have a passion for building web applications and seeing
+          them grow.{` `}
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
+          I'm always trying to improve myself by learning new technologies. I'm
+          currently working at{" "}
+          <Link
+            href="https://www.amplifyre.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <a className={"text-[#F7AB0A]"}>Amplifyre</a>
+          </Link>{" "}
+          as a Full-Stack Engineer.
         </p>
       </motion.div>
     </div>

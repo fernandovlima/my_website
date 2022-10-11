@@ -6,7 +6,7 @@ export function Header() {
   return (
     <header
       className={
-        "sticky top-0 flex  justify-between max-w-7xl mx-auto z-30 xl:items-center p-5"
+        "sticky top-0 flex w-full justify-between max-w-7xl mx-auto z-30 xl:items-center p-5"
       }
     >
       <motion.div

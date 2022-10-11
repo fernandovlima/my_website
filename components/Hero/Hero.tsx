@@ -26,6 +26,7 @@ export function Hero() {
 
       <Image
         src={"/img/fernando.webp"}
+        priority
         layout="intrinsic"
         width={140}
         height={140}

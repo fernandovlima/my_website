@@ -27,7 +27,7 @@ export const getIcon = (technology: string) => {
       return (
         <SiNextdotjs
           className={
-            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
+            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-black transition-colors duration-200 ease-in-out"
           }
         />
       );
@@ -35,7 +35,7 @@ export const getIcon = (technology: string) => {
       return (
         <SiTailwindcss
           className={
-            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
+            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-[#38B2AC] transition-colors duration-200 ease-in-out"
           }
         />
       );
@@ -43,7 +43,7 @@ export const getIcon = (technology: string) => {
       return (
         <SiGraphql
           className={
-            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
+            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-[#E10098] transition-colors duration-200 ease-in-out"
           }
         />
       );
@@ -51,7 +51,7 @@ export const getIcon = (technology: string) => {
       return (
         <SiHtml5
           className={
-            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
+            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-[#E34F26] transition-colors duration-200 ease-in-out"
           }
         />
       );
@@ -59,7 +59,7 @@ export const getIcon = (technology: string) => {
       return (
         <SiCss3
           className={
-            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
+            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-[#1572B6] transition-colors duration-200 ease-in-out"
           }
         />
       );
@@ -67,7 +67,7 @@ export const getIcon = (technology: string) => {
       return (
         <SiJavascript
           className={
-            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
+            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-[#F7DF1E] transition-colors duration-200 ease-in-out"
           }
         />
       );
@@ -75,7 +75,7 @@ export const getIcon = (technology: string) => {
       return (
         <SiTypescript
           className={
-            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
+            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-[#3178C6] transition-colors duration-200 ease-in-out"
           }
         />
       );
@@ -83,7 +83,7 @@ export const getIcon = (technology: string) => {
       return (
         <FaNodeJs
           className={
-            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
+            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-[#68A063] transition-colors duration-200 ease-in-out"
           }
         />
       );
@@ -91,7 +91,7 @@ export const getIcon = (technology: string) => {
       return (
         <SiMongodb
           className={
-            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
+            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-[#47A248] transition-colors duration-200 ease-in-out"
           }
         />
       );
@@ -99,7 +99,7 @@ export const getIcon = (technology: string) => {
       return (
         <SiFigma
           className={
-            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
+            "h-6 md:h-6 w-fit fill-gray-400 group-hover:fill-[#F24E1E]  transition-colors duration-200 ease-in-out"
           }
         />
       );
@@ -107,7 +107,7 @@ export const getIcon = (technology: string) => {
       return (
         <SiGithub
           className={
-            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-blue-500 transition-colors duration-200 ease-in-out"
+            "h-6 md:h-6 w-fit  fill-gray-400 group-hover:fill-[#181717] transition-colors duration-200 ease-in-out"
           }
         />
       );

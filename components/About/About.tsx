@@ -1,6 +1,7 @@
 import SectionHeader from "../Headings/SectionHeader";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 export function About() {
   return (
@@ -11,16 +12,23 @@ export function About() {
     >
       <SectionHeader level={3}>About</SectionHeader>
 
-      <motion.img
-        src={"/img/fernando.webp"}
+      <motion.div
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
         className={
-          "rounded-full object-cover h-56 w-56 mx-auto my-8 flex-shrink-0 md:mx-8 md:rounded-lg xl:h-[420px] xl:w-[420px]"
+          "relative rounded-full h-32 w-32 md:h-40 md:w-40 lg:h-56 lg:w-56 mx-auto my-8 flex-shrink-0 md:mx-8 md:rounded-lg"
         }
-      />
+      >
+        <Image
+          src={"/img/fernando.webp"}
+          alt={"Fernando Selfie"}
+          layout={"fill"}
+          objectFit={"cover"}
+          className={"rounded-full md:rounded-lg"}
+        />
+      </motion.div>
 
       <motion.div
         initial={{ x: -100, opacity: 0 }}
